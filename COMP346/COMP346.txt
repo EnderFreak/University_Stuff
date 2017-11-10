@@ -1,0 +1,4 @@
+I used a priority assigned to each philosopher to preserve starvation.
+Whenever a philosopher is refused a chopstick when she wants to eat, her priority increases.
+It is only when a philosopher's priority is higher than her left and right neighbours, that she can pick up the chopsticks.
+Philosopher's priority is reset to zero when he gets to eat.
